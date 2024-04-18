@@ -56,7 +56,7 @@ public class Main {
                 break;
             case (4):
                 fourth = quantity;
-                first = (measure == 1) ?  fourth / 0.3048D : fourth / 453.59237D;
+                first = (measure == 1) ?  fourth * 0.3048D : fourth * 453.59237D;
                 second = (measure == 1) ?  first / 1609.344D : first / 16380.4964D;
                 third = (measure == 1) ?  first / 0.9144D : first / 28.349523125D;
                 break;
